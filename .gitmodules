@@ -1,0 +1,3 @@
+[submodule "public/webpong"]
+	path = public/webpong
+	url = git@github.com:stantonwjones/WebPong.git
