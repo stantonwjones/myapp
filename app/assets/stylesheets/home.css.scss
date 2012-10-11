@@ -1,3 +1,68 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/* Gradient Generated for body */
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.content-left, .content-mid, .content-right {
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* Gradient Generated for inner content windows */
+
+//.content .content-inner {
+//    background: #ffffff; /* Old browsers */
+//    background: -moz-radial-gradient(center, ellipse cover, #ffffff 90%, #cccccc 100%); /* FF3.6+ */
+//    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(90%,#ffffff), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+//    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 90%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+//    background: -o-radial-gradient(center, ellipse cover, #ffffff 90%,#cccccc 100%); /* Opera 12+ */
+//    background: -ms-radial-gradient(center, ellipse cover, #ffffff 90%,#cccccc 100%); /* IE10+ */
+//    background: radial-gradient(center, ellipse cover, #ffffff 90%,#cccccc 100%); /* W3C */
+//}
+//.content .content-inner {
+//    border-radius: 10px;
+//    border: 2px solid #CCCCCC;
+//    margin: 5px;
+//    padding: 5px;
+//    min-height: 500px;
+//}
+
+.header {
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.content-left {
+    width: 30%;
+}
+.content-right {
+    width: 70%;
+    float: none;
+}
+.content-inner {
+    background: white;
+    margin: 8px;
+    padding: 15px;
+}
+.clear {
+    clear: both;
+}
+
+img.headshot {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Gradient Generated for header */
+
+
+.footer {
+}

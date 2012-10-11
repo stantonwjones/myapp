@@ -1,0 +1,1015 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:30:55 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (101.0ms)
+Compiled home.css  (216ms)  (pid 7180)
+Compiled pages.css  (3ms)  (pid 7180)
+Compiled posts.css  (3ms)  (pid 7180)
+Compiled scaffolds.css  (17ms)  (pid 7180)
+Compiled application.css  (332ms)  (pid 7180)
+Compiled jquery.js  (2ms)  (pid 7180)
+Compiled jquery_ujs.js  (0ms)  (pid 7180)
+Compiled home.js  (881ms)  (pid 7180)
+Compiled pages.js  (306ms)  (pid 7180)
+Compiled posts.js  (298ms)  (pid 7180)
+Compiled application.js  (1711ms)  (pid 7180)
+Completed 200 OK in 2644ms (Views: 2643.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /application.css - 200 OK (31ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /pages.css - 200 OK (4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /posts.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /jquery_ujs.js - 200 OK (10ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /home.js - 200 OK (4ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /pages.js - 200 OK (31ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /posts.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /application.js - 200 OK (14ms)
+
+
+Started GET "/assets/github-logo.png" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /github-logo.png - 200 OK (22ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 16:31:05 -0400
+Served asset /linkedin-logo.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:54:09 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (97.0ms)
+Compiled home.css  (179ms)  (pid 4696)
+Compiled pages.css  (2ms)  (pid 4696)
+Compiled posts.css  (2ms)  (pid 4696)
+Compiled scaffolds.css  (12ms)  (pid 4696)
+Compiled application.css  (259ms)  (pid 4696)
+Compiled jquery.js  (2ms)  (pid 4696)
+Compiled jquery_ujs.js  (0ms)  (pid 4696)
+Compiled home.js  (413ms)  (pid 4696)
+Compiled pages.js  (311ms)  (pid 4696)
+Compiled posts.js  (326ms)  (pid 4696)
+Compiled application.js  (1133ms)  (pid 4696)
+Completed 200 OK in 1923ms (Views: 1923.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /posts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /pages.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /posts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 16:54:18 -0400
+Served asset /linkedin-logo.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /posts.css - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 16:54:34 -0400
+Served asset /linkedin-logo.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 16:56:55 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Compiled home.css  (51ms)  (pid 4696)
+Compiled application.css  (3ms)  (pid 4696)
+Completed 200 OK in 176ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 16:56:56 -0400
+Served asset /linkedin-logo.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /posts.css - 200 OK (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:00:21 -0400
+Served asset /linkedin-logo.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:11:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled home.css  (20ms)  (pid 4696)
+Compiled pages.css  (2ms)  (pid 4696)
+Compiled posts.css  (2ms)  (pid 4696)
+Compiled scaffolds.css  (28ms)  (pid 4696)
+Compiled application.css  (119ms)  (pid 4696)
+Completed 200 OK in 643ms (Views: 643.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /posts.css - 200 OK (8ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /pages.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:11:52 -0400
+Served asset /linkedin-logo.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled home.css  (27ms)  (pid 4696)
+Compiled application.css  (3ms)  (pid 4696)
+Completed 200 OK in 100ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /posts.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:19:26 -0400
+Served asset /linkedin-logo.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Compiled application.css  (3ms)  (pid 4696)
+Completed 200 OK in 57ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:19:52 -0400
+Served asset /linkedin-logo.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /posts.css - 200 OK (13ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:19:58 -0400
+Served asset /linkedin-logo.png - 404 Not Found (34ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /home.js - 200 OK (12ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:05 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:22:06 -0400
+Served asset /linkedin-logo.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:22:08 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:08 -0400
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:08 -0400
+Served asset /scaffolds.css - 200 OK (5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /posts.js - 200 OK (3ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:22:09 -0400
+Served asset /linkedin-logo.png - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /scaffolds.css - 200 OK (11ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:22:21 -0400
+Served asset /linkedin-logo.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:24:23 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /pages.css - 200 OK (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:24:24 -0400
+Served asset /linkedin-logo.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-11 17:40:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled home.css  (38ms)  (pid 4696)
+Compiled pages.css  (1ms)  (pid 4696)
+Compiled posts.css  (1ms)  (pid 4696)
+Compiled scaffolds.css  (29ms)  (pid 4696)
+Compiled application.css  (142ms)  (pid 4696)
+Completed 200 OK in 188ms (Views: 186.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-10-11 17:40:01 -0400
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-10-11 17:40:01 -0400
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-11 17:40:01 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-10-11 17:40:01 -0400
+Served asset /scaffolds.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-11 17:40:02 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-10-11 17:40:02 -0400
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-11 17:40:02 -0400
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-10-11 17:40:02 -0400
+Served asset /pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-11 17:40:02 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2012-10-11 17:40:02 -0400
+Served asset /linkedin-logo.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/sjones/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/sjones/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
