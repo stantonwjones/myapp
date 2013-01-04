@@ -1,6 +1,8 @@
 Myapp::Application.routes.draw do
   root :to => 'home#index'
   resources :posts
+  match '/snapguide/guide/:id' => 'snapguide#guide'
+  match '/snapguide' => 'snapguide#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
