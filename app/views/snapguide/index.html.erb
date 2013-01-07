@@ -1,22 +1,41 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <script src="./main.js"></script>
+        <script src="/assets/javascripts/gallery.js"></script>
+        <link type="text/css" rel="stylesheet" href="/assets/stylesheets/gallery.css" />
     </head>
     <body>
         <script type="application/template" data-properties="author title source" name="galleryListItem">
             <div class="galleryListItem">
-                <div class="imageContainer">
-                    <img src="#source#" />
+                <div class="gallery-image-container">
+                    <div class="gallery-thumb-container">
+                    </div>
+                    <div class="preview-btn">preview</div>
                 </div>
                 <div class="info">
                     <span>#author#</span>
                     <span>#title#</span>
                 </div>
-                <div class="thumbs">
-                    <div class="gallery">
-                    </div>
-                    <div class="control">
+                <div class="preview-container">
+                </div>
+            </div>
+        </script>
+        <script type="application/template" data-properties name="galleryPreview">
+            <div class="galleryPreview">
+                <div class="pagination">
+                    <span class="prev">prev</span>
+                    <span class="pageNum"></span> / 
+                    <span class="total"></span>
+                    <span class="next">next</span>
+                </div>
+                <div class="thumbs-wrapper">
+                    <div class="thumbs-slider">
+                        <div class="prev thumb-container">
+                        </div>
+                        <div class="current thumb-container">
+                        </div>
+                        <div class="next thumb-container">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -26,17 +45,21 @@
                 <img src="#source#">
             </div>
         </script>
-        <script type="application/template" data-properties="author title" name="galleryModal">
-            <div class="GalleryModal">
+        <script type="application/template" data-properties="author title source" name="galleryModal">
+            <div class="galleryModal">
+                <div class="heading">
+                    <span class="author">#author#</span>
+                    <span class="title">#title#</span>
+                </div>
+                <div class="control">
+                    <span class="prev">prev</span>
+                    <span class="close">close</span>
+                    <span class="next">next</span>
+                </div>
+                <div class="image-container">
+                    <img src="#source#"/>
+                </div>
             </div>
-        </script>
-        <script type="application/javascript">
-            function test() {
-                return [
-        </script>
-        <script id="test" src="http://snapguide.com/api/v1/guide/b995492d5e7943e3b2757a88fe3ef7c6" type="text/javascript"></script>
-        <script type="application/javascript">
-            ]};
         </script>
 
         <div class="page">
@@ -47,6 +70,7 @@
                 
             </div>
         </div>
-
+        <div id="modalContainer">
+        </div>
     </body>
 </html>
