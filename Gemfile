@@ -7,8 +7,7 @@ gem 'heroku'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-    gem 'activerecord-postgresql-adapter'
-    gem 'pg',   '~> 0.8.0'
+    gem 'pg',   '~> 0.11.0'
 end
 group :development do
     gem 'sqlite3'
