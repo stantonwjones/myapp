@@ -1,4 +1,8 @@
 Myapp::Application.routes.draw do
+  get "admin/login"
+
+  post "admin/authenticate"
+
   root :to => 'home#index'
   resources :posts
   match '/snapguide/guide/:id' => 'snapguide#guide'

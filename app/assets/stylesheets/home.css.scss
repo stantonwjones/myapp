@@ -47,6 +47,12 @@
     width: 70%;
     float: none;
 }
+
+.contact-info {
+    .share a img {
+        height: 45px;
+    }
+}
 .content-inner {
     background: white;
     margin: 8px;
@@ -60,9 +66,6 @@ img.headshot {
     width: 100%;
     border-radius: 10px;
 }
-
-/* Gradient Generated for header */
-
 
 .footer {
 }

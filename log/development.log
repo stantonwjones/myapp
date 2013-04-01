@@ -4885,3 +4885,329 @@ ActionController::RoutingError (No route matches [GET] "/assets/linkedin-logo.pn
 
 
   Rendered /home/stanton/.rvm/gems/ruby-1.9.2-p318@myapp/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-01 16:40:38 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Compiled home.css  (10ms)  (pid 70771)
+Compiled pages.css  (1ms)  (pid 70771)
+Compiled posts.css  (0ms)  (pid 70771)
+Compiled scaffolds.css  (8ms)  (pid 70771)
+Compiled application.css  (57ms)  (pid 70771)
+Compiled jquery.js  (1ms)  (pid 70771)
+Compiled jquery_ujs.js  (0ms)  (pid 70771)
+Compiled home.js  (108ms)  (pid 70771)
+Compiled pages.js  (90ms)  (pid 70771)
+Compiled posts.js  (88ms)  (pid 70771)
+Compiled application.js  (341ms)  (pid 70771)
+Completed 200 OK in 468ms (Views: 467.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /home.css - 200 OK (5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /posts.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2013-04-01 16:40:39 -0400
+Served asset /linkedin-logo.png - 200 OK (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Compiled home.css  (7ms)  (pid 70771)
+Compiled application.css  (1ms)  (pid 70771)
+Completed 200 OK in 41ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /home.css - 200 OK (8ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2013-04-01 17:17:30 -0400
+Served asset /linkedin-logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/linkedin-logo.png" for 127.0.0.1 at 2013-04-01 17:19:37 -0400
+Served asset /linkedin-logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:21 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-04-01 17:21:26 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Compiled home.css  (28ms)  (pid 70771)
+Compiled pages.css  (0ms)  (pid 70771)
+Compiled posts.css  (0ms)  (pid 70771)
+Compiled scaffolds.css  (4ms)  (pid 70771)
+Compiled application.css  (42ms)  (pid 70771)
+Completed 200 OK in 50ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-04-01 17:22:40 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Compiled home.css  (6ms)  (pid 70771)
+Compiled application.css  (1ms)  (pid 70771)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /home.css - 200 OK (6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-04-01 17:25:26 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
